@@ -1,0 +1,234 @@
+* {
+  font-family: helvetica;
+}
+
+/* hero */
+.hero {
+  background-color: #f1f3ff;
+  height: 500px;
+  padding-top: 1px;
+}
+
+.logo {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+
+.navbar {
+  margin-top: 5px;
+}
+
+h1 {
+  width: 568px;
+  height: 108px;
+  left: 136px;
+  top: 177px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+.offcanvas-body .btn-success {
+  background-color: #5cb85f;
+  border-radius: 2px;
+  width: 81px;
+  height: 36px;
+  padding: 0px 12px;
+}
+
+.row .btn-success {
+  padding: 6px 12px;
+  height: 36px;
+  background: #5cb85f;
+  border-radius: 2px;
+}
+
+.deskripsi-web {
+  width: 468px;
+  height: 60px;
+  left: 136px;
+  top: 301px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.bg-biru {
+  position: absolute;
+  width: 744px;
+  height: 243px;
+  left: 51%;
+  top: 257px;
+  background: #0d28a6;
+  border-radius: 60px 0px 0px 0px;
+}
+
+.img-car {
+  position: absolute;
+  left: 52%;
+  top: 97px;
+}
+/* akhir hero */
+
+/* why us */
+#why-us {
+  margin-bottom: 5%;
+}
+/* why us */
+
+/* Testimonial */
+.item {
+  width: 700px;
+  height: 270px;
+  background: #f1f3ff;
+}
+/* Testimonial */
+
+/* banner */
+.row .banner-card {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #0d28a6;
+}
+/* banner */
+
+/* FAQ */
+.accordion {
+  display: grid;
+  padding-right: 5%;
+  row-gap: 5%;
+  margin-bottom: 100px;
+  border: none;
+}
+/* FAQ */
+
+@media screen and (min-width: 1400px) {
+  .row .border {
+    width: 755px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* hero */
+  .navbar .offcanvas {
+    max-width: 50%;
+  }
+  .hero {
+    height: 657px;
+  }
+  .hero-deskripsi {
+    margin-left: 10px;
+  }
+
+  .img-car {
+    margin-top: 40px;
+    margin-left: 24px;
+  }
+
+  .judul {
+    width: 328px;
+    height: 216px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #000000;
+  }
+
+  .deskripsi-web {
+    width: 328px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #000000;
+  }
+  .hero-deskripsi .btn-success {
+    box-sizing: border-box;
+    position: absolute;
+    width: 140px;
+    height: 36px;
+    top: 420px;
+    background: #5cb85f;
+    border-radius: 2px;
+  }
+
+  .img-car {
+    position: absolute;
+    width: 320px;
+    height: 199px;
+    left: 15px;
+    top: 450px;
+  }
+
+  .bg-biru {
+    position: absolute;
+    width: 96%;
+    height: 118.81px;
+    left: 15px;
+    top: 538.19px;
+    background: #0d28a6;
+    border-radius: 60px 0px 0px 0px;
+  }
+  /* akhir hero */
+
+  /* why us */
+  .title-why-us {
+    text-align: center;
+  }
+  /* why us */
+
+  /* testimonial */
+  .testi {
+    width: 328px;
+  }
+  .item {
+    width: 328px;
+    height: 372px;
+    background: #f1f3ff;
+    margin-left: 7vw;
+  }
+
+  .img-profil {
+    top: 5px;
+    position: relative;
+    left: 100px;
+  }
+
+  .rate {
+    position: relative;
+    top: 120px;
+    left: 45px;
+  }
+
+  .desk-testi {
+    font-size: 14px;
+    margin-top: 140px;
+    width: 290px;
+    position: absolute;
+    left: 51px;
+  }
+
+  .name-testi {
+    font-size: 14px;
+    position: absolute;
+    margin-top: 275px;
+    left: 51px;
+  }
+  /* testimonial */
+
+  /* FAQ */
+  .title-faq {
+    text-align: center;
+  }
+
+  .accordion {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  /* FAQ */
+}
